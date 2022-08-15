@@ -1,0 +1,7 @@
+spring:
+  active: dev
+  
+spring:
+  profile: dev
+  application:
+  name: test-config
