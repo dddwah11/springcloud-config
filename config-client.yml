@@ -1,0 +1,15 @@
+server:
+  profile: dev
+  port: 8201
+
+spring:
+  application:
+    name: spring-cloud-provider
+#eureka 服务注册到哪
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+
+  
